@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>精进 - My Docs</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">My Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Welcome to MkDocs</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Java</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../java/2017-04-06-Guice%E6%B3%A8%E5%85%A5SLF4J/" class="dropdown-item">Guice注入SLF4J</a>
+</li>
+                                    
+<li>
+    <a href="../../java/2017-04-06-java%E6%97%A5%E5%BF%97%E6%A1%86%E6%9E%B6-logback/" class="dropdown-item">java日志框架-logback</a>
+</li>
+                                    
+<li>
+    <a href="../../java/2017-05-13-Guice%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/" class="dropdown-item">Guice 使用方法</a>
+</li>
+                                    
+<li>
+    <a href="../../java/2019-04-18-JAVA%20NIO/" class="dropdown-item">Java NIO</a>
+</li>
+                                    
+<li>
+    <a href="../../java/2019-08-08-Java%E5%B9%B6%E5%8F%91%E6%B5%8B%E8%AF%95CyclicBarrier%E4%B8%8ECountDownLatch/" class="dropdown-item">Java并发测试CyclicBarrier与CountDownLatch</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Other</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../other/2016-04-08-hexo%E4%B8%8Egithubpages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="dropdown-item">hexo与githubpages搭建个人博客</a>
+</li>
+                                    
+<li>
+    <a href="../../other/2016-04-09-ubuntu14-4-server%E6%8E%A7%E5%88%B6%E5%8F%B0%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/" class="dropdown-item">ubuntu14.4-server控制台中文乱码问题解决</a>
+</li>
+                                    
+<li>
+    <a href="../../other/2016-10-22-%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E6%BC%94%E5%8F%98%E5%8F%B2/" class="dropdown-item">字符编码演变史</a>
+</li>
+                                    
+<li>
+    <a href="../../other/2016-11-24-%E9%86%92%E8%A8%80/" class="dropdown-item">“醒言”</a>
+</li>
+                                    
+<li>
+    <a href="../../other/2016-11-25-linux%E4%B8%8Blighttd%E5%AE%89%E8%A3%85%EF%BC%8C%E9%83%A8%E7%BD%B2hexo/" class="dropdown-item">linux下lighttd安装，部署hexo</a>
+</li>
+                                    
+<li>
+    <a href="../../other/2016-11-25-linux%E5%AE%89%E8%A3%85dropx/" class="dropdown-item">linux安装dropx</a>
+</li>
+                                    
+<li>
+    <a href="../../other/2016-11-27-java%E5%BC%80%E6%BA%90%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%A4%84%E7%90%86%E5%B7%A5%E5%85%B7/" class="dropdown-item">java开源字符串处理工具</a>
+</li>
+                                    
+<li>
+    <a href="../../other/2017-05-09-%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="dropdown-item">静态博客搭建</a>
+</li>
+                                    
+<li>
+    <a href="../../other/2017-11-18-Git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/" class="dropdown-item">Git版本控制</a>
+</li>
+                                    
+<li>
+    <a href="../../other/2018--8-11-shadowsocks%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%9C%8D%E5%8A%A1%E5%AE%89%E8%A3%85/" class="dropdown-item">shadowsocks服务端服务安装</a>
+</li>
+                                    
+<li>
+    <a href="../../other/2019-05-18-Git%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" class="dropdown-item">Git 常用命令</a>
+</li>
+                                    
+<li>
+    <a href="../../other/2019-05-18-Linux%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" class="dropdown-item">Linux 常用命令</a>
+</li>
+                                    
+<li>
+    <a href="../../other/2019-07-27-%E6%A0%91%E8%8E%93%E6%B4%BE3b%2B%20%E5%AE%89%E8%A3%85openwrt/" class="dropdown-item">树莓派3b+安装openwrt 18.06.4</a>
+</li>
+                                    
+<li>
+    <a href="../../other/2019-11-04-%E5%85%8D%E8%B4%B9%E8%AF%81%E4%B9%A6%E5%AE%89%E8%A3%85-certbot/" class="dropdown-item">免费证书安装-certbot</a>
+</li>
+                                    
+<li>
+    <a href="../../other/2020-03-02-%E5%9F%BA%E4%BA%8Enginx%E7%9A%84acme%E5%85%8D%E8%B4%B9%E8%AF%81%E4%B9%A6%E6%96%B9%E6%A1%88/" class="dropdown-item">基于nginx的acme免费证书方案</a>
+</li>
+                                    
+<li>
+    <a href="../../other/2021-05-06-%E4%BD%BF%E7%94%A8GitHub%20Actions%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2hugo%E5%88%B0GitHub%20Pages/" class="dropdown-item">使用GitHub Actions自动部署hugo到GitHub Pages</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">机器学习</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2016-11-25-%E9%9A%90%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E6%A8%A1%E5%9E%8B/" class="dropdown-item">隐马尔可夫模型</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2016-11-27-EM%E7%AE%97%E6%B3%95/" class="dropdown-item">EM算法</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2016-11-27-%E6%9C%80%E5%A4%A7%E7%86%B5%E6%A8%A1%E5%9E%8B/" class="dropdown-item">最大熵模型</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2017-01-07-%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/" class="dropdown-item">统计学习方法</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2017-01-12-%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%98%E5%9B%9E%E5%BD%92/" class="dropdown-item">最小二乘回归</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2017-01-12-%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E6%95%B0%E6%8D%AE-%E6%A6%82%E7%8E%87%E7%BB%9F%E8%AE%A1/" class="dropdown-item">程序员的数据-概率统计</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2017-02-10-%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E5%AF%B9%E5%81%B6/" class="dropdown-item">拉格朗日乘数法</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2017-02-12-Logistic%E5%9B%9E%E5%BD%92/" class="dropdown-item">Logistic回归</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2017-02-12-%E6%84%9F%E7%9F%A5%E6%9C%BA%E6%A8%A1%E5%9E%8B/" class="dropdown-item">感知机模型</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2017-02-18-%E6%B7%B7%E5%90%88%E9%AB%98%E6%96%AF%E6%A8%A1%E5%9E%8B/" class="dropdown-item">混合高斯模型</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2017-03-12-%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF/" class="dropdown-item">朴素贝叶斯</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2017-03-12-%E6%A8%A1%E5%9E%8B%E7%AE%80%E8%A6%81%E6%80%BB%E7%BB%93/" class="dropdown-item">模型简要总结</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2017-03-12-%E6%B7%B7%E5%90%88%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%A8%A1%E5%9E%8B/" class="dropdown-item">混合朴素贝叶斯模型</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2017-03-12-%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B%E4%B8%8E%E9%AB%98%E6%96%AF%E5%88%A4%E5%88%AB%E5%88%86%E6%9E%90/" class="dropdown-item">生成模型与高斯判别分析</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2017-06-04-%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95%E6%A6%82%E8%AE%BA/" class="dropdown-item">统计学习方法概论</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2017-07-06-%E4%BC%BC%E7%84%B6%E4%B8%8E%E6%9E%81%E5%A4%A7%E4%BC%BC%E7%84%B6%E4%BC%B0%E8%AE%A1/" class="dropdown-item">似然与极大似然估计</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2017-07-15-%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D/" class="dropdown-item">集成学习简单介绍</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2017-07-19-%E5%86%B3%E7%AD%96%E6%A0%91/" class="dropdown-item">决策树</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2017-09-02-Logistic%E5%9B%9E%E5%BD%92%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E6%8E%A8%E5%AF%BC/" class="dropdown-item">Logistic回归梯度下降推导</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2019-04-14-gbdt%E7%90%86%E8%A7%A3/" class="dropdown-item">GBDT 解理</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2021-06-04-%E8%AF%84%E4%BB%B7%E6%8C%87%E6%A0%87/" class="dropdown-item">评价指标</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">深度学习</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/2017-07-11-%E5%9C%A8kaggle%E4%B8%AD%E4%BD%BF%E7%94%A8keras%E5%81%9A%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB/" class="dropdown-item">在kaggle中使用keras做数字识别</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/2019-07-17-%E6%B7%B1%E5%BA%A6%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/" class="dropdown-item">深度神经网络</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/2019-08-18-auto-encoder/" class="dropdown-item">Auto-Encoder</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/2019-08-20-Tensorflow%20%E6%A8%A1%E5%9E%8B%E7%9A%84%E4%BF%9D%E5%AD%98%E5%92%8C%E6%81%A2%E5%A4%8D/" class="dropdown-item">Tensorflow 模型的保存和恢复</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/2019-08-29-Tensorflow%20dataset/" class="dropdown-item">Tensorflow dataset</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/2019-09-03-tensorflow%20example%20%E5%92%8C%20TFRecord/" class="dropdown-item">Tensorflow example 和 TFRecord</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/2019-09-14-bert%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/" class="dropdown-item">bert的基本使用</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/2019-09-24-pytorch-BI-LSTM-CRF%E4%BB%A3%E7%A0%81%E8%A7%A3%E8%AF%BB/" class="dropdown-item">pytorch BI-LSTM CRF 代码解读</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/2019-11-22-tensorflow2.0%E4%BD%BF%E7%94%A8bert%EF%BC%9Atransformers%E4%B8%8Ekashgari/" class="dropdown-item">Tensorflow2.0使用bert：transformers与kashgaria</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/2019-12-12-Tensorflow2.0%20%E5%9F%BA%E4%BA%8EBERT%E7%9A%84%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%EF%BC%88huggingface-transformers%EF%BC%89/" class="dropdown-item">Tensorflow2.0 基于BERT的开发实战（huggingface-transformers）</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/2020-02-20-Albert%E5%9C%A8Bert%E5%9F%BA%E7%A1%80%E4%B8%8A%E7%9A%84%E5%87%A0%E7%82%B9%E6%94%B9%E8%BF%9B/" class="dropdown-item">Albert在Bert基础上的几点改进</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/2020-05-09-Transformers%E7%9A%84%E4%B8%80%E4%BA%9B%E8%BF%B7%E6%80%9D/" class="dropdown-item">Transformers的一些迷思</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/2020-07-16-%E9%80%9A%E8%BF%87Tensorflow2%E4%BD%BF%E7%94%A8Bert%E9%A2%84%E8%AE%AD%E7%BB%83%E6%A8%A1%E5%9E%8B%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F/" class="dropdown-item">通过Tensorflow2使用Bert预训练模型的两种方式</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/2020-07-29-Batch_Normalization%E4%B8%8ELayer_Normalization%E7%9A%84%E7%90%86%E8%A7%A3%E6%95%B4%E7%90%86/" class="dropdown-item">Batch Normalization与Layer Normalization的理解整理</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/2020-10-16-DeepLearning%E4%B8%ADCRF%E7%9A%84Tensorflow%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/" class="dropdown-item">DeepLearning中CRF的Tensorflow代码实现</a>
+</li>
+                                    
+<li>
+    <a href="../../%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/2020-10-16-DeepLearning%E4%B8%ADCRF%E8%AE%A1%E7%AE%97%E5%8E%9F%E7%90%86/" class="dropdown-item">DeepLearning中CRF计算原理</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">算法</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../%E7%AE%97%E6%B3%95/2016-11-25-PageRank%E7%AE%97%E6%B3%95/" class="dropdown-item">PageRank算法</a>
+</li>
+                                    
+<li>
+    <a href="../../%E7%AE%97%E6%B3%95/2017-03-12-%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93/" class="dropdown-item">排序算法总结</a>
+</li>
+                                    
+<li>
+    <a href="../../%E7%AE%97%E6%B3%95/2017-03-26-%E5%A0%86%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/" class="dropdown-item">堆排序算法</a>
+</li>
+                                    
+<li>
+    <a href="../../%E7%AE%97%E6%B3%95/2017-04-16-%E5%A4%9A%E6%A8%A1%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%B9%E9%85%8D%E7%AE%97%E6%B3%95-Aho%E2%80%93Corasick/" class="dropdown-item">多模字符串匹配算法-Aho–Corasick</a>
+</li>
+                                    
+<li>
+    <a href="../../%E7%AE%97%E6%B3%95/2017-05-14-%E6%95%A3%E5%88%97%E8%A1%A8/" class="dropdown-item">散列表</a>
+</li>
+                                    
+<li>
+    <a href="../../%E7%AE%97%E6%B3%95/2017-05-16-%E5%85%A8%E5%9F%9F%E5%93%88%E5%B8%8C/" class="dropdown-item">全域哈希</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">自然语言处理</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/2017-05-21-Stanford%20CoreNLP%20%E4%BD%BF%E7%94%A8/" class="dropdown-item">Stanford CoreNLP 使用</a>
+</li>
+                                    
+<li>
+    <a href="../../%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/2017-07-06-%E4%BF%A1%E6%81%AF%E7%9A%84%E5%BA%A6%E9%87%8F%E7%86%B5/" class="dropdown-item">信息的度量熵</a>
+</li>
+                                    
+<li>
+    <a href="../../%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/2017-09-08-MMSeg%E5%88%86%E8%AF%8D%E6%96%B9%E6%B3%95/" class="dropdown-item">MMSeg分词方法</a>
+</li>
+                                    
+<li>
+    <a href="../../%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/2017-09-09-%E5%9F%BA%E4%BA%8E%E7%BB%9F%E8%AE%A1%E7%9A%84%E8%AF%8D%E5%88%87%E5%88%86%E5%92%8C%E6%A0%87%E6%B3%A8%E4%B8%80%E4%BD%93%E5%8C%96%E6%A8%A1%E5%9E%8B/" class="dropdown-item">基于统计的词切分和标注一体化模型</a>
+</li>
+                                    
+<li>
+    <a href="../../%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/2021-05-13-HAN%20for%20Document%20Classification/" class="dropdown-item">HAN for Document Classification</a>
+</li>
+                                    
+<li>
+    <a href="../../%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/2021-05-21-%E5%9F%BA%E4%BA%8E%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%B9%B3%E5%9D%87%E7%9A%84%E7%83%AD%E8%AF%8D%E5%8F%91%E7%8E%B0%E7%AE%97%E6%B3%95/" class="dropdown-item">基于贝叶斯平均的新词发现算法</a>
+</li>
+                                    
+<li>
+    <a href="../../%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/2021-06-02-%E5%AF%B9LSTM%E7%9A%84%E6%8C%81%E7%BB%AD%E7%90%86%E8%A7%A3/" class="dropdown-item">2021 06 02 对LSTM的持续理解</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">阅读</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">精进</a>
+</li>
+                                    
+<li>
+    <a href="../2018-06-19-%E6%96%9C%E6%9D%A0%E9%9D%92%E5%B9%B4/" class="dropdown-item">斜杠青年</a>
+</li>
+                                    
+<li>
+    <a href="../2018-10-01-%E6%B4%BB%E6%B3%95/" class="dropdown-item">活法</a>
+</li>
+                                    
+<li>
+    <a href="../2018-10-04-%E4%B8%80%E5%B0%8F%E6%97%B6%E5%A4%96/" class="dropdown-item">一小时外</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../../%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/2021-06-02-%E5%AF%B9LSTM%E7%9A%84%E6%8C%81%E7%BB%AD%E7%90%86%E8%A7%A3/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../2018-06-19-%E6%96%9C%E6%9D%A0%E9%9D%92%E5%B9%B4/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="2"><a href="#_1" class="nav-link">第一章 时间之尺——我们应该怎样对待时间</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#_44" class="nav-link">第二章 寻找心中的“巴拿马”——如何做出比好更好的选择</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#_87" class="nav-link">第三章 即刻行动——改变一切的核心力量</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#_145" class="nav-link">第四章 怎样的学习，才能够直面现实？——如何成为一个高段位的学习者？</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#_174" class="nav-link">第五章 向未知的无限逼近——修炼思维，成为真正的利器</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#_179" class="nav-link">第六章 努力，是一种需要学习的才能——不断优化你的“努力”方式</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#_185" class="nav-link">第七章 每一个成功者，都是唯一的——创造成功，而不是复制成功</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 id="_1">第一章  时间之尺——我们应该怎样对待时间</h2>
+<h3 id="_2">一、  活在“全部的现在”</h3>
+<p>（从当下出发，联结过去与未来）</p>
+<h4 id="_3">向孩子学习“郑重”的态度</h4>
+<h5 id="_4">郑重是这样一种态度：因恪守配以而知事情轻重缓急，因尽全力无保留而使其事竟成、光阴未曾虚度。</h5>
+<h4 id="_5">不同场合，不同的时间视角</h4>
+<h5 id="_6">五种时间视角</h5>
+<h6 id="1">1、积极过去视角</h6>
+<h6 id="2">2、消极过去视角</h6>
+<h6 id="3">3、享乐主义视角</h6>
+<h6 id="4">4、宿命论视角</h6>
+<h6 id="5">5、未来视角</h6>
+<h5 id="_7">建议</h5>
+<h6 id="_8">最好采用平衡和折中的方式，根据不同的现实场景加以灵活选择</h6>
+<h4 id="_9">由当下向过去与未来延伸</h4>
+<h5 id="lindvallextendednow">多瑞典心理学家林德沃（Lindvall）提出，具有平衡式时间视角的人，在内心具有一种“延伸的当下感”（extendednow），既可以“从当下来审视过去”，也可以“视未来存在于当下”，他应具有囊括“过和“未来”的包容性。</h5>
+<h3 id="_10">二、  对五年后的自己提问</h3>
+<p>（如何解决远期与近期未来的冲突？）</p>
+<h4 id="_11">对人 生来 说，“ 五年” 意味着 什么？</h4>
+<h5 id="_12">五年的时间通常会越过人生的“下一个阶段”，进入“下下个阶段”。</h5>
+<h5 id="_13">如果把五年作为做成一件事的时间跨度，那么也意味着你需要忍受头几年的挫败、煎熬和孤独，乃至别人的误解、嘲笑和攻击。</h5>
+<h4 id="_14">未来</h4>
+<h5 id="_15">远期未来</h5>
+<h6 id="_16">远期未来的视角下，人们倾向于用抽象、概括的方式去思考。</h6>
+<h5 id="_17">近期未来</h5>
+<h6 id="_18">而在近期未来视角下，人们更容易到具体的情境中去考虑，想得更多的不是“要不要做”，而是“怎么去做”。</h6>
+<h4 id="_19">拖延症：当近期未来遇到了阻碍，而产生了对远期未来焦虑的放大和大量的负面情绪，因而发生了关注点偏倚</h4>
+<h3 id="_20">三、  我们总是在重复地抓起沙子</h3>
+<p>（把时间花在值得做的事情上）</p>
+<h4 id="_21">如何判断一件事情是否值得做</h4>
+<h5 id="_22">两个因素</h5>
+<h6 id="_23">收益值</h6>
+<h6 id="_24">收益半衰期</h6>
+<h4 id="_25">少做短半衰期事件</h4>
+<h5 id="_26">长半衰期的事件，可以累积和叠加</h5>
+<h4 id="_27">我们为什么要读经典</h4>
+<h5 id="_28">超长半衰期</h5>
+<h5 id="_29">经典的价值，就在于你总是会从中找到新的东西，所以经典是怎么读都读不尽的。</h5>
+<h5 id="_30">一部经典作品必然包含了某种接近“带我本质”的东西，也就是某种根源性的东西。</h5>
+<h4 id="_31">辨别生活中的信息噪音</h4>
+<h5 id="_32">调整评估信息价值的时间尺度</h5>
+<h6 id="_33">法国历史学家布罗代尔提出记述历史的三个时间尺度，其中最长的时间尺度，关注的是一个地区的地理和气候环境；中等的时间惊讶，关注的是社会和文化层面的因素；而短时间尺度，才是传统的历史学所关注的具体的出现。布罗代尔认为，具体的历史事件的出现，往往具有有随机性，在表面现象背后，是更深刻和稳定 的导致该事件发生的中、长时间尺度的因素，这些因素才是更值得历史学家记述的。</h6>
+<h3 id="_34">四、  “快”与“慢”的自由切换</h3>
+<p>（为什么我们的时间永远不够用？）</p>
+<h4 id="_35">时间管理，让我们越来越快</h4>
+<h5 id="_36">我们原本就是因为快而痛苦，可时间管理却教我们如何更快。</h5>
+<h5 id="_37">侯世达定律：实际做事花费的时间总是比预期的要长，即使预期中考虑了侯世达定律</h5>
+<h4 id="_38">工作要快，生活要慢</h4>
+<h5 id="_39">有快有慢便是节奏</h5>
+<h4 id="_40">提升时间的使用深度</h4>
+<h5 id="_41">时间悖论：半个世纪以来，人们可自由支配 的闲暇时间总体上一直呈增加的趋势，但人们主观上却觉得自己的闲暇时间在减少，也就是说人们实际拥有的赶时间越来越多，主观感受拥有的时间却越少</h5>
+<h5 id="_42">从闲暇时间中获得放松和满足的程序并不取决于闲暇时间的长度，而是取决于质量。</h5>
+<h5 id="_43">事业与生活的秘诀无外乎是处理好时间的快与慢，深与浅的关系</h5>
+<h2 id="_44">第二章  寻找心中的“巴拿马”——如何做出比好更好的选择</h2>
+<h3 id="_45">一、  从终极问题出发</h3>
+<p>（以人生终极目标作为首要原则）</p>
+<h4 id="_46">更高的目标，才会有更好的选择</h4>
+<h5 id="_47">满意原则：人会从自己最熟悉的待选项开始逐一进行考察，如果考察到一个满足内心标准的选项，就会采纳这个选项，余下的选项就废弃了，而并不是对比所有待选项，然后选出其中最好的。</h5>
+<h5 id="_48">一个成熟的人，他的标准来自他的内心，而大多数人，却受环境所左右。</h5>
+<h4 id="_49">你内心真正渴望的是什么</h4>
+<h5 id="_50">迈克尔雷教授：如果一个人，处处以最高目标为原则，必然能在生活中做出正确的决定。</h5>
+<h5 id="_51">最高目标，并不是批那些可以被度量且数量力求最大化的目标，而是批从整个人生来看最有意义和最有价值的目标，这个目标反映了一个人内心深处的渴望：我们一直在寻找的那个“巴拿马”</h5>
+<h4 id="_52">在现有格局上，向上走一步</h4>
+<h5 id="_53">选择主不是审分寸，而分寸就是本末轻重，要能权衡好本末轻重，就得有价值意识，也就是要搞清楚人生中到底想要什么、追求什么</h5>
+<h5 id="_54">一个人追求什么，反映了他的“格局”</h5>
+<h6 id="_55">看自己，看天地，看众生</h6>
+<h6 id="_56">零度格局：盲众（看不见），无目标或只追随当下的潮流</h6>
+<h6 id="_57">一度格局：逐利者（看自己），寻求自身利益的最大化</h6>
+<h6 id="_58">二度格局：理念人（看天地），为理念而生的人，追求和捍卫真理</h6>
+<h6 id="_59">三度格局：至善之人（看众生），以改良社会、增进人类的福祉为最高目标</h6>
+<h6 id="_60">如果说在零度格局下，盲众看到的是幻象和噪声；一度格局下，逐利者看到的是自己的能力和欲望，那么理念人看到的是这个世界深处的真和美，而至善之人看到的是自我与世界、自我与整个人类之间的纽带。</h6>
+<h6 id="_61">史怀哲：人不能只为他自己而活。我们必须认知所有的生命都是珍贵的，而我们和所有生命是结合在一起的。这种认知指引了我们心灵和宇宙的关系。</h6>
+<h3 id="_62">二、  逃离隐含假设的牢笼</h3>
+<p>（发现人生中的更多可能选项）</p>
+<h4 id="_63">我们是如何走入两难困境的</h4>
+<h5 id="_64">当我们陷于某个人生困局时，困住我们的不仅有外界的客观现实，还有我们过去 的经历、习惯和思维惯性。这些东西会在我们思考时自动植入“隐含假设”，从而限制了思考的角度和范围。其结果是，我们通常只是在两三个“可见选项”中去决定，而意识不到更好的“可能选项”</h5>
+<h5 id="_65">解决方法</h5>
+<h6 id="1_1">1、找出潜意识中的隐含假设</h6>
+<h6 id="2_1">2、识别隐含假设中的不合理性，进行校正</h6>
+<h6 id="3_1">3、形成新的更灵活的思维框架，在此基础上思考出“可能选项”并进行尝试</h6>
+<h4 id="_66">四种普遍的隐含假设</h4>
+<h5 id="_67">赛道假设：认为人生就是一场漫长的比赛，比赛的项目是设定好的，而获胜者寥寥无几。</h5>
+<h5 id="_68">低关联假设：人生的种种经历之间相互独立，不存在什么关联。</h5>
+<h5 id="_69">僵固性心智：会用一种固定的眼光看待自己的能力，其中很多人会认为自己的天赋不够，或者智商平平，于是在遇到一引起挫折时就自怨自艾，失去了继续努力的勇气。</h5>
+<h5 id="_70">零和假设：在人与人的竞争中，更倾向于从别人那里争夺利益，而很少去构想双赢的方案。</h5>
+<h4 id="_71">新的思维框架，探寻更多的可能</h4>
+<h5 id="_72">目标悬置</h5>
+<h6 id="abab">串行模式：必须在实现目标A后才能实现目标B，实现A是目标B的前提。</h6>
+<h6 id="ab">并行模式：同时追求目标A和目标B</h6>
+<h6 id="_73">目标悬置：把你的目标停下来、放一放，但这个“放”不是放弃，只是悬置。等到时机成熟时，你又可以重新开始。</h6>
+<h5 id="_74">能力嫁接</h5>
+<h6 id="_75">固然某一项能力有直接相关的任务类型与之对应，但与此同时，能力也是可以迁移的，它也可以在某些你尚未发现的领域有用武之地。</h6>
+<h5 id="_76">特性改造</h5>
+<h6 id="_77">消费型兴趣 升级为 生产型兴趣</h6>
+<h3 id="_78">三、  克服天性中的选择弱势</h3>
+<p>（选择太多怎么办？）</p>
+<h4 id="_79">精细化思考</h4>
+<h5 id="1_2">1、重新定义问题：把原来的问题定义为一个更根源性的问题。</h5>
+<h5 id="2_2">2、因素穷举：基于重新定义的问题，找出所有可能的工作特征，这个特征力求全面同时与问题相关。</h5>
+<h5 id="3_2">3、因素赋权：在罗列的因素中进行筛选，招其重要性进行权重赋值。</h5>
+<h5 id="4_1">4、列表格</h5>
+<h3 id="_80">四、  人生是持续而反复的构造</h3>
+<p>（校正选择，做出建设性的改变）</p>
+<h4 id="_81">单次的选择的重要性也行被我们高估了：一个新的选择也可能颠覆原先那个关键的选择，使人生走向一个新方向或者重新驶回曾经的轨道。</h4>
+<h4 id="_82">不要因为预设规则，而放弃个人追求</h4>
+<h5 id="_83">规则遵循理论：人们在作出一个决定时，往往是基于自己的身份，并依循自己身份所就遵守的规则来进行判断</h5>
+<h4 id="_84">重新选择，并不用全部推倒重来</h4>
+<h5 id="_85">有时候我们会选错，甚至为这个错误付出太多，但是没有关系，我们仍然可以重新作出选择，因为这才是人生的常态。</h5>
+<h5 id="_86">重新作出选择并不一定意味着全部推倒重来，曾经的想法、选择、努力一定会在我们的人生中留下深刻的印记。</h5>
+<h2 id="_87">第三章  即刻行动——改变一切的核心力量</h2>
+<h3 id="_88">一、  “现在”就是恰当的时机</h3>
+<p>（不管怎样，只要开始就好）</p>
+<h4 id="_89">洗一次碗用不上五分钟，但是洗碗前各种想方设法的逃避、拖延带来的心理成本却比先碗本身更累。</h4>
+<h4 id="_90">各种小事的堆积可以把人的心理成本撑得很大，而当这些小事被基本消除后，人就可以轻松多了。</h4>
+<h4 id="_91">种一棵树最好好的时间是十年前，其次是现在。</h4>
+<h3 id="_92">二、  精益创业的行动启示</h3>
+<p>（把“未完成”变成“已完成” ）</p>
+<h4 id="_93">最小化可行产品：可以使用最少资源、被最快制作出来的、可执行基本功能的、能被用户使用的试验性产品。</h4>
+<h4 id="_94">精准创业的思想是，抛弃这种冗长呆板的计划，用反复试验和获取反馈的方法来探明环境，通过迭代优化来最终进化出一个最好的产品。</h4>
+<h4 id="_95">一个人的“最小化可行产品”是什么</h4>
+<h5 id="_96">产品概念的内涵</h5>
+<h6 id="1_3">1.“产品”不是过程，而是结果</h6>
+<h6 id="2_3">2.“产品”不是对原料、素材的简单规程，而是对它们结构性的整合和组织。</h6>
+<h6 id="3_3">3.“产品”不是创制者锁在自己保险箱里的东西，而要被其他人使用和检验。</h6>
+<h6 id="4_2">4.“产品”能独立对世界产生影响，它应该能创造出正向的价值，使人受益。</h6>
+<h6 id="5_1">5.“产品”也是一种媒介。</h6>
+<h5 id="_97">在某家公司的实习经历不是产品，但基于实习经历写成的系统性总结报告可以算作产品；阅读一本书的经历不是产品，但是对这本书深入、透彻分析 的文章可以算作产品；拥有绘画的技能不是产品，但是这项技能创造的绘画作品可以算作产品。</h5>
+<h5 id="_98">这些小产品，可以作为你才华展示的载体，让你的才能搭载着这些载体，传播出去，供他人欣赏、口味，并获得反馈，然后你可以继续做出更复杂、更优秀的产品。如此一来，你的才能、声誉、影响力和成就感都会慢慢培育出来。</h5>
+<h4 id="_99">我们永远无法完全准备好</h4>
+<h5 id="_100">我们很多人缺少“往前一步”的自觉，也就是把“未完成”的做事习惯往前一步，变成“已完成”的做事习惯</h5>
+<h5 id="_101">“先做好准备再上场”观念的一个致使问题是：我们永远都无法做好“完全”的准备。总有我们还未顾及的问题，总有我们能力上的短板，总有我们未搜罗完全 的信息。</h5>
+<h5 id="_102">匠构战略：在陶器的制作过程中，每一瞬间陶器的坯子都在变化着，这时工匠需要敏锐的觉察到它是怎么变化 的，然后适时调整策略和构思。</h5>
+<h4 id="_103">把批评当作一种信息对待</h4>
+<h5 id="_104">外界反馈分为三种</h5>
+<h6 id="_105">正面肯定</h6>
+<h6 id="_106"># 坚定我们犹豫不决的心态，增强我们的自信</h6>
+<h6 id="_107">否定和批评</h6>
+<h6 id="_108"># 促使我们反思，校正之前的错误想法</h6>
+<h6 id="_109">提示之前未知的方面</h6>
+<h6 id="_110"># 发现新的世界，让我们的思考更加周全</h6>
+<h5 id="_111">不喜欢听批评是人的一种天性</h5>
+<h6 id="_112">罗根史密斯：这个宇宙上的一古怪的事情是，虽然我们大家意见不一，我们大家却总是正确的。</h6>
+<h5 id="_113">很多时候，别人的批评并不正确，但思考和辨析这些批评本身对我们也是有益的。</h5>
+<h4 id="_114">对产品不断修正</h4>
+<h5 id="_115">沉没成本谬误：因为人们总是留恋自己已经付出的努力，而不管这些曾经的努力对未来是否已经失去了价值。</h5>
+<h5 id="_116">彼得德鲁克：最悲哀的，莫过于用最高效的方式去做错误 的事情。</h5>
+<h4 id="3_4">精益创业的3点前提</h4>
+<h5 id="_117">克服“过度准备”的惯性，向前一步，把未完成的事情完成。</h5>
+<h5 id="_118">克服“自我防卫”的心态，乐于接受反而意见并加以慎重地审视。</h5>
+<h5 id="_119">克服“沉没成本”的固执，有勇气否定并重新构造自己的产品。</h5>
+<h3 id="photoshop">三、  像Photoshop一样分解任务</h3>
+<p>（从工作的核心区开始）</p>
+<h4 id="_120">从认知心理学的观点来看，严格来讲实现人的“多线程工作”是不可能的。因为在任何瞬间 ，人只能有一个“注意焦点”，这个注意焦点牵引了的认知加工资源。</h4>
+<h4 id="_121">“核心思考区间”的工作不可中断</h4>
+<h5 id="abbb">转换损耗：当从任务A转换到任务B后，执行任务B的绩效要明显比非任务转换条件下执行B的绩效差，这个差异称为“转换损耗”</h5>
+<h5 id="_122">拿到一个任务后，务必要先找到那个任务的核心思考区间，找到那块硬骨头，尽全力去啃下来，而不是先去做那些周边的打扫性的工作。</h5>
+<h4 id="_123">对不同认知类型的工作分层处理</h4>
+<h5 id="_124">按照所涉及的认识复杂度和认知类型对任务进行切分 。</h5>
+<h5 id="_125">认知类型指的是我们头脑加工信息的不同方式，比如处理语言文字、图片，数值是不同类型。</h5>
+<h5 id="_126">不同认知类型进行切换时，任务的转换损耗比较大。</h5>
+<h5 id="_127">图层工作法：欣赏一首歌的时间流和制作一首歌的时间流是不一样的。欣赏一首歌时，我们从歌的第一秒开始听，每一秒都是多个音轨声音的混合；而制作一首歌时，则可能是先从头到尾制作出一条音轨，把首歌的时间走完，再制作另一条音轨，最后才能各条音轨的声音调配复合到一起。</h5>
+<h4 id="_128">集中处理同质性的工作</h4>
+<h5 id="_129">雅明：写一篇好散文要经过三个台阶，一个是音乐的，这时它被构思；一个是建筑的，这时它被搭建起来；最后一个是纺织的，这是它被织成。</h5>
+<h3 id="_130">四、  三行而后思</h3>
+<p>（在实践中，通过复盘积累智慧）</p>
+<h4 id="_131">行动先于思考的价值</h4>
+<h5 id="_132">运行中蕴含的知识属于不易用语言表达的隐性知识</h5>
+<h5 id="_133">知识的创造过程，其实是隐性知识和显性知识相互转化的过程。</h5>
+<h6 id="_134">从显性知识到隐性知识的转化，类似于知识的内化，即通过实际 的练习来掌握书中的知识。</h6>
+<h6 id="_135">从隐性知识到显性知识的转化，则是知识的显化。在这个过程中，就需要我们对行动进行细致的反思，把那些原本并非用语言承载的知识，用语言归纳和总结出来。</h6>
+<h4 id="_136">我们应该如何去反思</h4>
+<h5 id="_137">看到只是一个个表象</h5>
+<h6 id="_138">表象之上 ，是经由归纳抽象出来的经验、假设和模型；</h6>
+<h6 id="_139">表象之下，是大量更加真实与繁密的细节性信息；</h6>
+<h5 id="_140">反思和行动，就成了在这三者之间折返的桥梁</h5>
+<h4 id="_141">及时反思，梳理反应链与意外现象</h4>
+<h5 id="_142">保证及时性</h5>
+<h5 id="_143">梳理“反应链”</h5>
+<h5 id="_144">关注意外现象</h5>
+<h2 id="_145">第四章  怎样的学习，才能够直面现实？——如何成为一个高段位的学习者？</h2>
+<h3 id="_146">一、  找到一切学习的向导</h3>
+<p>（好的学习者，首先要向自己提问）</p>
+<h4 id="_147">主动构建知识</h4>
+<h5 id="_148">不经提问的学习</h5>
+<h6 id="_149">一般步骤</h6>
+<h6 id="_150"># 订立计划</h6>
+<h6 id="_151"># 实施学习</h6>
+<h6 id="_152"># 回顾和整理</h6>
+<h6 id="_153">以既成知识为核心的学习，学习者扮演的只是一个“吸纳者”或者“搬运者”的角色，他们把外部的的知识经过消化后搬运到头脑的内部，只不过完成了知识在不同载体间的传递。这种学习中，知识在传递过程中的精确性、完整性被认为是至关重要的，而学习者自身的心智，包括他原有的知识体系、方法、观念及至困惑，却可以被搁置起来，不闻不问。</h6>
+<h5 id="_154">更合理的模式应该是“建构式”的，即知识不是简单地吸收而来，而是由学习者主动地构建而来。</h5>
+<h4 id="_155">打开新旧知识之间的通道</h4>
+<h5 id="_156">哲学家罗素在《人类的知识》中写道，一个人求知的历程，就像是一个登山者靠近一座雾霭笼罩的高山，一开始他只能看到一个模糊的轮廓，所有的东西都无法看清，慢慢地走近时，这座山的各个部分才渐渐地清晰起来。</h5>
+<h5 id="_157">问题并非空中楼阁，而是建立于已有知识的地基（ 模糊轮廓）。因此，我们对新旧知识的梳理和反思就特别重要。</h5>
+<h5 id="_158">四个问题</h5>
+<h6 id="_159">针对当前的学习材料，我已具备哪些相关知识、</h6>
+<h6 id="_160">针对当前的学习材料，我又学到了哪些新的知识？这些知识对原来知识构成了何种补充或者挑战？</h6>
+<h6 id="_161">针对当前的学习材料，还有哪些未知的东西，且这些东西我通过简单的探索可以了解？</h6>
+<h6 id="_162">针对当前的学习材料，还有哪些未知的东西，无法轻易地获得解答，同时又有价值成为我长期去探索的问题？</h6>
+<h4 id="_163">任何一个问题，都可以探究下去</h4>
+<h5 id="_164">提问的关键，是提出现实场景下的、可能具有开放性解答的问题，而非一个纯理论性的、封闭的问题。</h5>
+<h3 id="_165">二、  不要只做信息的搬运工</h3>
+<p>（通过解码，深入事物的深层）</p>
+<h4 id="_166">解码的基本规律</h4>
+<h5 id="_167">三个层次</h5>
+<h6 id="1_4">1、它说了什么？给了我什么感受（它原本就要传达的信息和知识）</h6>
+<h6 id="2_4">2、它是什么？对我有什么价值？（对内容的反思，以审视的目光对内容进行评价和定性）</h6>
+<h6 id="3_5">3、它的内部是怎么组成的？它的效果是怎么实现的？（对形式和构成的洞察，研究内容表达的手法）</h6>
+<h4 id="_168">不断扩展自己的知识体系</h4>
+<h5 id="_169">著名哲学家怀特海在《思维方式》一书说，“理解的推进有两种，一种是把细节集合于既定的模式内，一种是发现强调新细节的新模式“</h5>
+<h4 id="_170">深度学习：不只了解，还要知晓</h4>
+<h5 id="_171">学习应该是广度和深度的结合。广度能够让人不闭塞，深度能够让人不只是学皮毛。</h5>
+<h3 id="_172">三、  技能，才是学习的终点</h3>
+<p>（你能够调用的知识有多少？）</p>
+<h3 id="_173">四、  分离的知识，难以解答真正的现实</h3>
+<p>（让不同的知识发生化学作用）</p>
+<h2 id="_174">第五章  向未知的无限逼近——修炼思维，成为真正的利器</h2>
+<h3 id="_175">一、  大脑需要“断舍离”</h3>
+<p>（ 简化，是清晰思考的前提 ）</p>
+<h3 id="_176">二、  迎接“灵光乍现”的时刻</h3>
+<p>（让潜意识为你工作）</p>
+<h3 id="_177">三、  思考可以有自己的形状</h3>
+<p>（将思维转化为图像 ）</p>
+<h3 id="_178">四、  世界上没有轻而易举的答案</h3>
+<p>（只有极少数的人能做到周密思考）</p>
+<h2 id="_179">第六章 努力，是一种需要学习的才能——不断优化你的“努力”方式</h2>
+<h3 id="_180">一、  努力本身就是一种才能</h3>
+<p>（努力需要有效的策略）</p>
+<h3 id="_181">二、  没有突出的长板就是危险</h3>
+<p>（专注发展自己的优势才能）</p>
+<h3 id="_182">三、  你是“差不多先生”吗？</h3>
+<p>（绝不苟且，才能做到极致 ）</p>
+<h3 id="_183">四、  挑战是设计出来的</h3>
+<p>（不断为自己设计“必要的难度”挑战 ）</p>
+<h3 id="_184">五、  不痛苦地坚持到底</h3>
+<p>（只有深入下去，才能培养起真正的兴趣）</p>
+<h2 id="_185">第七章 每一个成功者，都是唯一的——创造成功，而不是复制成功</h2>
+<h3 id="_186">一、  “学渣”与“学霸”都不是好选择</h3>
+<p>（做一个主动探索的学习者）</p>
+<h3 id="_187">二、  从“游乐场”到“荒野求生”</h3>
+<p>（怎样从大学走向社会？）</p>
+<h3 id="_188">三、  独特性，就是你的核心竞争力</h3>
+<p>（ 请坚持你的与众不同！ ）</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
